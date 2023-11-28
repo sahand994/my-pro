@@ -1,12 +1,10 @@
-import Logo from "../../logo"
-import "./index.css"
+import "./sass/main.scss"
 
 
 function HeaderPrimary() {
     return (
         <header className="header">
             <div className="textBox">
-                <Logo />
                 <h1 className="headingPrimary">
                     <span className="headingPrimaryMain">Outdoors</span>
                     <span className="headingPrimarySub">is where life happens</span>
